@@ -141,8 +141,8 @@ svg {
   padding: 1rem;
   background-color: #e5e7eb;
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 15px;
+  grid-template-columns: 3fr minmax(200px, 1fr);
+  gap: 40px;
 }
 
 .main-content svg {
@@ -191,4 +191,26 @@ svg {
   width: 100%;
   background-color: black;
   height: 1px;
+}
+
+.announcement-card {
+  background-color: #f3f4f6;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.announcement-card p {
+  font-weight: bold;
+}
+
+.trending-card {
+  background-color: #f3f4f6;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
